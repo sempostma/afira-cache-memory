@@ -1,0 +1,47 @@
+{
+  "name": "afira-cache-memory",
+  "version": "0.1.0",
+  "description": "Very simple athena afira cache implementation.",
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc --watch",
+    "pretest": "npm run build",
+    "test": "jest",
+    "jest:watch": "jest --watchAll",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "lint:fix": "tslint --fix -c tslint.json 'src/**/*.ts'"
+  },
+  "files": [
+    "dist/",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sempostma/afira-cache-memory.git"
+  },
+  "keywords": [
+    "util",
+    "cache",
+    "memory",
+    "afira",
+    "typescript"
+  ],
+  "author": "Sem Postma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sempostma/afira-cache-memory/issues"
+  },
+  "homepage": "https://github.com/sempostma/afira-cache-memory#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "jest": "^25.1.0",
+    "jsdom": "^16.2.0",
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
