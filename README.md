@@ -9,7 +9,7 @@ npm install --save afira-cache-memory
 ## Usage
 
 ```javascript
-const createMemoryCacheStore = require('../dist/index').default
+const createMemoryCacheStore = require('afira-cache-memory').default
 
 const store = createMemoryCacheStore()
 
@@ -21,7 +21,7 @@ store.set('key', 'value')
 or es6
 
 ```javascript
-import createMemoryCacheStore from '../dist/index'
+import createMemoryCacheStore from 'afira-cache-memory'
 
 const store = createMemoryCacheStore()
 
